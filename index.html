@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>StudyFlow — خطتك لمستقبلك</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-glow glow1"></div><div class="bg-glow glow2"></div>
+
+  <aside class="sidebar">
+    <div class="brand"><span class="brand-icon">📖</span><div><b>StudyFlow</b><small>خطتك لمستقبلك</small></div></div>
+    <nav>
+      <button class="nav active" data-section="home">⌂ <span>الرئيسية</span></button>
+      <button class="nav" data-section="schedule">▦ <span>جدول المذاكرة</span></button>
+      <button class="nav" data-section="subjects">▤ <span>المواد</span></button>
+      <button class="nav" data-section="tasks">✓ <span>المهام</span></button>
+      <button class="nav" data-section="exams">◷ <span>الاختبارات</span></button>
+      <button class="nav" data-section="notes">✎ <span>الملاحظات</span></button>
+      <button class="nav" data-section="resources">🔗 <span>الموارد التعليمية</span></button>
+      <button class="nav" data-section="stats">▥ <span>التقارير والإحصائيات</span></button>
+      <button class="nav" data-section="settings">⚙ <span>الإعدادات</span></button>
+    </nav>
+    <div class="ai-card">
+      <div class="bot">🤖</div>
+      <b>أنت أقرب من أي وقت للإنجاز!</b>
+      <p>استمر خطوة كل يوم.</p>
+    </div>
+  </aside>
+
+  <main>
+    <header class="topbar">
+      <button id="menuBtn" class="icon-btn">☰</button>
+      <div class="date">السبت، 26 أبريل 2025</div>
+      <div class="top-actions"><span>10:24</span><button class="icon-btn" id="themeBtn">◐</button><div class="avatar">A</div></div>
+    </header>
+
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">مستقبلك يبدأ من هنا</span>
+        <h1>مرحباً، أحمد 👋</h1>
+        <p>كل يوم فرصة جديدة لتكون أفضل.</p>
+        <div class="quote">"المذاكرة ليست مجرد دراسة... إنها بناء لمستقبلي الذي أحلم به."</div>
+      </div>
+      <div class="goal-ring"><div><strong>68%</strong><small>من هدفك</small></div></div>
+    </section>
+
+    <section class="quick-grid">
+      <button class="quick purple" data-action="task">➕<b>إضافة مهمة</b><small>سجل مهامك اليومية</small></button>
+      <button class="quick blue" data-action="schedule">▣<b>إنشاء جدول ذكي</b><small>جدول يناسب وقتك</small></button>
+      <button class="quick green" data-action="subject">📚<b>إضافة مادة</b><small>نظم دراستك</small></button>
+      <button class="quick orange" data-action="note">📝<b>كتابة ملاحظة</b><small>احفظ أفكارك وملاحظاتك</small></button>
+    </section>
+
+    <section id="home" class="content-section active-section">
+      <div class="section-head"><div><h2>جدول المذاكرة اليومي</h2><p>السبت، 26 أبريل 2025</p></div><div class="tabs"><button class="tab active">يوم</button><button class="tab">أسبوع</button><button class="tab">‹</button><button class="tab">›</button></div></div>
+      <div class="schedule-card">
+        <div class="schedule-row"><span>04:00 - 05:30</span><b class="pill math">رياضيات</b><strong>الدرس 3 - المعادلات</strong><em class="done">تم ✓</em></div>
+        <div class="schedule-row"><span>05:45 - 06:45</span><b class="pill science">علوم</b><strong>مراجعة الوحدة 1</strong><em class="doing">قيد التنفيذ</em></div>
+        <div class="schedule-row"><span>07:00 - 08:00</span><b class="pill arabic">عربي</b><strong>حل تدريبات</strong><em>لم تبدأ</em></div>
+        <div class="schedule-row"><span>09:00 - 10:30</span><b class="pill english">إنجليزي</b><strong>قواعد + كلمات جديدة</strong><em>لم تبدأ</em></div>
+        <div class="schedule-row"><span>11:00 - 12:00</span><b class="pill history">تاريخ</b><strong>مراجعة الدرس 2</strong><em>لم تبدأ</em></div>
+        <div class="schedule-row"><span>02:00 - 03:30</span><b class="pill physics">فيزياء</b><strong>حل مسائل</strong><em>لم تبدأ</em></div>
+      </div>
+
+      <div class="dashboard-grid">
+        <div class="panel"><h3>📊 نسبة إنجاز المواد</h3><div class="progress-item"><span>رياضيات</span><b>75%</b><i><u style="width:75%"></u></i></div><div class="progress-item"><span>علوم</span><b>60%</b><i><u style="width:60%"></u></i></div><div class="progress-item"><span>عربي</span><b>40%</b><i><u style="width:40%"></u></i></div><div class="progress-item"><span>إنجليزي</span><b>20%</b><i><u style="width:20%"></u></i></div></div>
+        <div class="panel"><h3>📝 آخر الملاحظات</h3><div class="mini">ملاحظات رياضيات <small>منذ 3 ساعات</small></div><div class="mini">ملاحظات علوم <small>منذ 45 دقيقة</small></div><div class="mini">ملاحظات عامة <small>منذ يوم واحد</small></div></div>
+        <div class="panel"><h3>🚀 مهام قادمة</h3><div class="task"><input type="checkbox"> مراجعة الوحدة 1 - علوم <small>بعد ساعة</small></div><div class="task"><input type="checkbox"> حل تدريبات - عربي <small>بعد ساعتين</small></div><div class="task"><input type="checkbox"> كلمات جديدة - إنجليزي <small>بعد 4 ساعات</small></div></div>
+      </div>
+      <div class="bottom-grid">
+        <div class="panel points"><h3>🏆 نظام النقاط</h3><strong>320 نقطة</strong><div class="bar"><i style="width:64%"></i></div><small>حتى المستوى التالي: 180 نقطة</small></div>
+        <div class="panel"><h3>💡 اقتباس اليوم</h3><p>ابدأ بخطوة صغيرة، واجعل الاستمرار هو قوتك.</p></div>
+        <div class="panel toggle-panel"><span>🌙 الوضع الليلي</span><label class="switch"><input id="themeToggle" type="checkbox" checked><i></i></label></div>
+      </div>
+    </section>
+
+    <section id="schedule" class="content-section"><div class="panel page"><h2>📅 جدول المذاكرة</h2><p>من هنا تقدر تنظم أسبوعك وتضيف جلسات مذاكرة جديدة.</p><button class="primary" data-action="schedule">+ إضافة جلسة</button><div class="empty">جدولك الحالي متاح في الرئيسية، ويمكنك تخصيصه من زر «إنشاء جدول ذكي».</div></div></section>
+    <section id="subjects" class="content-section"><div class="panel page"><h2>📚 المواد</h2><p>رياضيات · علوم · عربي · إنجليزي · تاريخ · فيزياء</p><button class="primary" data-action="subject">+ إضافة مادة</button></div></section>
+    <section id="tasks" class="content-section"><div class="panel page"><h2>✓ المهام</h2><p>تابع المهام اليومية وأنجزها واحدة تلو الأخرى.</p><button class="primary" data-action="task">+ إضافة مهمة</button></div></section>
+    <section id="exams" class="content-section"><div class="panel page"><h2>📝 الاختبارات</h2><p>لديك اختباران قادمان؛ أضف مواعيد اختباراتك لتظهر في التقويم.</p></div></section>
+    <section id="notes" class="content-section"><div class="panel page"><h2>✎ الملاحظات</h2><textarea id="noteBox" placeholder="اكتب ملاحظتك هنا..."></textarea><button class="primary" id="saveNote">حفظ الملاحظة</button></div></section>
+    <section id="resources" class="content-section"><div class="panel page"><h2>🔗 الموارد التعليمية</h2><div class="resource">🎥 شرح الدروس بالفيديو</div><div class="resource">📄 ملفات PDF وملخصات</div><div class="resource">🧠 اختبارات تفاعلية</div></div></section>
+    <section id="stats" class="content-section"><div class="panel page"><h2>📈 التقارير والإحصائيات</h2><div class="stats"><div><b>6</b><span>مواد دراسية</span></div><div><b>23</b><span>يوم للامتحانات</span></div><div><b>2</b><span>اختبارات قادمة</span></div><div><b>68%</b><span>نسبة الإنجاز</span></div></div></div></section>
+    <section id="settings" class="content-section"><div class="panel page"><h2>⚙ الإعدادات</h2><p>الوضع الليلي مفعل، والبيانات البسيطة تحفظ محلياً على جهازك.</p></div></section>
+  </main>
+
+  <div id="modal" class="modal"><div class="modal-box"><button class="close">×</button><h2 id="modalTitle">إضافة</h2><input id="modalInput" placeholder="اكتب هنا..."><button class="primary" id="modalSave">حفظ</button></div></div>
+  <script src="script.js"></script>
+</body>
+</html>
